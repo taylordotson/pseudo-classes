@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+}
+
+.inline {
+    display: block;
+    margin: 25px;
+    border: 1px black solid;
+}
+
+.n-child :nth-of-type(2n) {
+    border: 1px black solid;
+}
